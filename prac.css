@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.text {
+    /* border: 2px solid red; */
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.first-text {
+    font-size: 4rem;
+    color: white;
+
+}
+
+.second-text {
+    font-size: 5rem;
+    color: red;
+}
+.second-text::before{
+    position: absolute;
+}
